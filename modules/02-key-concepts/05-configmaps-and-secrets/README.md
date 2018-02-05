@@ -11,7 +11,7 @@ https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-envir
 
 ```
 kubectl edit <CONFIG_MAP>
-Kubectl create configmap <NAME> --from-literal=<KEY>=<VALUE>
+kubectl create configmap <NAME> --from-literal=<KEY>=<VALUE>
 kubectl create configmap <NAME> --from-file=<FILENAME>
 # Default key is the name of the file, to override:
 --from-file=<KEY>=<PATH_TO_FILE>
