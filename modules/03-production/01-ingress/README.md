@@ -23,7 +23,7 @@ minikube addons enable ingress
     ```
     * Add the following to the end of your hosts file
     ```
-    minikube.info <minikube_ip>
+    <minikube_ip> minikube.info
     ```
     > __Hosts file location:__
     > 
