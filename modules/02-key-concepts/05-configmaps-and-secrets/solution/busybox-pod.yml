@@ -14,7 +14,6 @@ spec:
     volumeMounts:
     - name: cfg-mount
       mountPath: "/opt/app/message"
-      subPath: "message"
   restartPolicy: Never
   volumes:
   - name: cfg-mount
