@@ -10,11 +10,10 @@ spec:
     command:
     - /bin/sh
     - -c
-    - "cat /opt/app/message && sleep 1000"
+    - "cat /opt/app/messages/message && sleep 1000"
     volumeMounts:
     - name: cfg-mount
-      mountPath: "/opt/app/message"
-      subPath: "message"
+      mountPath: "/opt/app/messages"
   restartPolicy: Never
   volumes:
   - name: cfg-mount
