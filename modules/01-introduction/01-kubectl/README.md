@@ -22,8 +22,8 @@ kubectl logs <POD_NAME>
 
 # Instructions
 
-1. Start a new Kubernetes cluster using `minikube`
-2. Make sure that your cluster is running
+1. Start a new Kubernetes cluster using `minikube start`
+2. Make sure that your cluster is running `minikube status`
 3. Check that your `kubectl` is connected to the new cluster. You can verify it by checking the node names in the cluster (`kubectl get nodes`)
 3. Upload the configuration defined in `hello-world.yml` file (`kubectl create -f <file-name>`)
 4. Wait until the application's pod will be in the **running** state by querying it's status with

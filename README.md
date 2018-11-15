@@ -16,7 +16,7 @@
 ## Prerequisites
 
 1. Minikube Linux/Windows/MAC - https://github.com/kubernetes/minikube
-2. Docker fundamentals - https://bit.ly/2ksdlSE
+2. Docker fundamentals - http://ibm.biz/dockerTraining
 3. Patience
 
 
